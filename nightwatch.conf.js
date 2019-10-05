@@ -1,4 +1,5 @@
 require('dotenv').config();
+//test git
 
 module.exports = {
     'src_folders': ['tests'],
