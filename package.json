@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "debug": "node --inspect-brk node_modules/.bin/nightwatch",
-    "test": "",
+    "test": "nightwatch --retries 2",
     "test:browserstack": "nightwatch --retries 2 -c nightwatch.browserstack.conf.js",
     "test:vrt": "nightwatch -c nightwatch.vrt.conf.js",
     "consolidate:vrt": "CONSOLIDATE=1 npm run test:vrt",
